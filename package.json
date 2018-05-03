@@ -1,0 +1,18 @@
+{
+  "name": "sets-utils",
+  "version": "1.0.0",
+  "description": "A bunch of utility functions for sets",
+  "main": "index.js",
+  "author": "Sal Rahman",
+  "license": "MIT",
+  "scripts": {
+    "test": "ava && eslint index.js",
+    "docs": "jsdoc2md index.js > docs.md"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "eslint": "^4.19.1",
+    "jsdoc-to-markdown": "^4.0.1"
+  }
+}
